@@ -1,7 +1,7 @@
 {
-  "name": "babel-flatten-presets",
+  "name": "babel-fast-presets",
   "version": "0.0.2",
-  "description": "Flatten and deduped babel presets for faster loading",
+  "description": "Load Babel presets faster by deduping common dependencies.",
   "keywords": [
     "babel"
   ],
