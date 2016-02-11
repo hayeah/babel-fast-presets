@@ -1,8 +1,10 @@
 {
   "name": "babel-flatten-presets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Flatten and deduped babel presets for faster loading",
-  "keywords": ["babel"],
+  "keywords": [
+    "babel"
+  ],
   "author": "Howard Yeh",
   "license": "MIT",
   "devDependencies": {
