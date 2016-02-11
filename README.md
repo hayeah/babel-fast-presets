@@ -4,7 +4,7 @@ This package flattens and dedups presets to make Babel load faster.
 
 The transformations in a Babel preset are independent packages. Although these packages share many of the same dependencies, they all bring along their own node_modules. For this reason, a large preset like [es2015](http://babeljs.io/docs/plugins/preset-es2015/) can be horribly bloated, taking a looooong time to install and to load.
 
-Because the package has no dependencies, it installs quickly:
+This package has no dependencies. npm install finishes in a snap:
 
 ```
 npm install babel-fast-presets
@@ -54,4 +54,4 @@ $ time babel --presets es2015,stage-1 examples/foo.js
 4.80s user 0.40s system 101% cpu 5.100 total
 ```
 
-Enjoy~
+[@hayeah](https://twitter.com/hayeah)
